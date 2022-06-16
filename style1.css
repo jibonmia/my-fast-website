@@ -1,32 +1,17 @@
-h1{
-    color: black;
+.header{
+   text-align: center;
+   background-color: azure;
+   padding: 40px;
 }
-h1:hover
-{
-    color: rgb(26, 141, 194);
-    font-size: medium;
+.product{
+   display: flex;
+   flex-direction: row;
+   background-color: rgb(230, 224, 218);
 
 }
-input:focus{
-    color: aqua;
+.place{
+  margin: 20px;
 }
-div{
-    width: 150px;
-    height: 100px;
-    border: 2px solid;
-    border-color: rgb(48, 36, 18);
-    background-color: blanchedalmond;
-    overflow: scroll;
-}
-.tooltip .tooltip-text{
-  visibility: hidden;
-  border: 2px solid;
-  color: blue;
-  background-color: aliceblue;
-  top: 10px;
-  left: 5px;
-  position: relative;
-}
-.tooltip:hover .tooltip-text{
-    visibility: visible;
+form{
+   margin: 10px;
 }
