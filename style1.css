@@ -1,0 +1,41 @@
+body{
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 10px;
+}
+/* navbar */
+.nav-image{
+    width: 200px;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 10px;
+}
+.navbar ul li a{
+    color: black;
+}
+/* cerousle */
+.carousel-item{
+    padding: 10px;
+}
+/* button */
+button{
+    padding: 7px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+/* card */
+.card-img-top{
+    width: 200px;
+}
+.card-body{
+    text-align: center;
+}
+.card-footer{
+    background-color: white;
+}
+/* categoris */
+.categoris{
+    text-align: center;
+}
